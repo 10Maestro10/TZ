@@ -1,0 +1,332 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+body{
+    line-height: 1;
+}
+ol, ul{
+	list-style: none;
+}
+blockquote, q{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after{
+	content: '';
+	content: none;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-size: 18px;
+    background: #d3e1f0;
+    font-family: 'Underdog', cursive;
+}
+.navbar{
+    border-bottom: 20px solid rgb(18, 153, 177);
+}
+.sidebar{
+    background: rgb(224, 224, 224);
+    margin-top: 5px;
+    width: 165px;
+}
+a{
+    color: black;
+}
+.sidebar .sec-menu-link{
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.div-for-padd{
+    padding: 10px 20px 10px 10px;
+}
+.container{
+    background: #f8f9fa;
+}
+.menuDevider{
+    font-weight: bolder;
+}
+.seven{
+    color: rgb(18, 153, 177);
+    font-weight: bolder;
+    font-size: 30px;
+    background: none;
+}
+.chudes{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    background: none;
+}
+.svitu{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    background: none;
+}
+h2{
+    font-size:25px;
+    padding-bottom: 10px;
+}
+.miracle{
+    height: 200px;
+    width: 250px;
+    display: block;
+    max-width: 100%;
+}
+.border-block{
+    position: relative;
+    max-width: 250px;
+    margin:0 10px;
+}
+.border-block:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid white;
+}
+.seven-miracle{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px;
+}
+.align{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.card-title{
+    font-weight: bold;
+}
+.card{
+    margin: 10px;
+}
+.card-shadow{
+    -webkit-box-shadow: 1px 5px 10px 1px #BDBDBD;
+    box-shadow: 1px 5px 10px 1px #BDBDBD;
+}
+.zeus-deck, .chichen-deck{
+    padding-bottom: 20px;
+}
+.hidden-card{
+    visibility: hidden;
+}
+.all-miracles{
+    float: right;
+    margin:0 10px 10px 10px;
+    border: 2px solid black;
+    height: 275px;
+    width: 480px;
+}
+.btn-info{
+    margin-top: 20px;
+}
+.btn-info:hover{
+    animation: pulse 2s infinite;
+}
+.height-container{
+    padding-bottom: 1px;
+    min-height: 100vh;
+}
+.zeus-container{
+    padding-bottom: 70px;
+}
+.a-miracle{
+    font-weight: bold;
+}
+.card-img-top{
+    min-height: 100%;
+
+}
+.padding-btn{
+    margin-bottom: 20px;
+}
+.section{
+    border-bottom: 10px solid rgb(47, 186, 211);
+    padding-bottom: 20px;
+}
+.candidats{
+    margin:7px 0 7px 0;
+}
+.text-for-candidats{
+    font-size: 20px;
+}
+.section2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 10px solid rgb(47, 186, 211);
+}
+@keyframes pulse{
+    0%{
+        transform: scale3d(1, 1, 1);
+    }
+    50%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100%{
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* Media for small phones */
+@media (max-width: 575px) {
+    .card{
+        min-width: 85vw;
+    }
+    .breadcrumb{
+        font-size: 9px;
+    }
+    .hidden-card{
+        display: none;
+    }
+    .card{
+        max-width: 325px;
+    }
+    .all-miracles{
+        max-width: 275px;
+        max-height: 150px;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+    .col-2{
+        display: none;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .blue-a{
+        color: rgb(11, 169, 197);
+        text-decoration: underline;
+    }
+    .a-miracle{
+        text-decoration: underline;
+    }
+}
+
+/* Media for phones */
+@media (min-width: 375px) and (max-width: 767px){
+    .breadcrumb{
+        font-size: 11px;
+    }
+    .hidden-card{
+        display: none;
+    }
+    /* .hidden-body, .hidden-mavzoley, .hidden-artemida, 
+    .hidden-machu, .hidden-petra, .hidden-colos,
+    .hidden-tadzh, .hidden-colizey, .hidden-zeus,
+    .hidden-christ{
+        overflow: hidden;
+    } */
+    .card{
+        max-width: 325px;
+    }
+    .all-miracles{
+        max-width: 275px;
+        max-height: 150px;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+    .col-2{
+        display: none;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .blue-a{
+        color: rgb(11, 169, 197);
+        text-decoration: underline;
+    }
+    .a-miracle{
+        text-decoration: underline;
+    }
+}
+
+/* Media for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .hidden-body, .hidden-mavzoley, .hidden-artemida, 
+    .hidden-machu, .hidden-petra, .hidden-colos,
+    .hidden-tadzh, .hidden-colizey, .hidden-garden,
+    .hidden-piramid, .hidden-china, .hidden-zeus,
+    .hidden-christ{
+        overflow: hidden;
+    } */
+    .sidebar{
+        margin-top: 0;
+        width: 110px;
+        font-size: 11px;
+        height: 495px;
+    }
+    .sidebar .sec-menu-link{
+        font-size: 11px;
+    }
+    .all-miracles{
+       float: none;
+       margin-left: 0;
+    }
+    .miracle{
+        height: 160px;
+    }
+}
+.img-block{
+    min-height: 110vh;
+}
+
+/* Media for desctop */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sidebar{
+        width: 150px;
+    }
+    body{
+        font-size: 29px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .text-for-candidats{
+        font-size: 35px;
+    }
+    .form-inline .form-control{
+        font-size: 30px;
+    }
+    /* .hidden-body, .hidden-mavzoley, .hidden-artemida, 
+    .hidden-machu, .hidden-petra, .hidden-colos,
+    .hidden-tadzh, .hidden-colizey, .hidden-garden,
+    .hidden-piramid, .hidden-china, .hidden-zeus, 
+    .hidden-christ{
+        overflow: hidden;
+    } */
+}
